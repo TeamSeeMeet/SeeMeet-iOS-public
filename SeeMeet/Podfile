@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+def pods
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Then'
+  pod 'FSCalendar'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+  pod 'FirebaseMessaging'
+
+  pod 'KakaoSDKCommon'
+  pod 'KakaoSDKAuth'
+  pod 'KakaoSDKUser'
+  pod 'KakaoSDKTalk'
+  pod 'KakaoSDKShare'
+
+  pod 'Kingfisher', '~> 7.0'
+
+  pod 'RxSwift', '~> 6.5'
+  pod 'RxCocoa', '6.5.0'
+  pod 'RxRelay', '~> 6.5'
+
+
+end
+
+
+target 'SeeMeet' do
+  pods
+end
